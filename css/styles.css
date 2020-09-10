@@ -1,0 +1,175 @@
+body{
+    text-align: center;
+}
+
+/* container */
+.container-fluid{
+    padding: 7% 15%;    
+}
+
+/* Colored Section */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* White Section */
+.white-section{
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header1,.header2,.header3,.header3cta{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.header1{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid{
+    padding:3% 15% 7%;    
+    text-align: left;
+}
+
+/*Title Image */
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* FEATURES */
+
+/* Font awesome */
+#features{
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icons{
+    color: #ef8172;    
+}
+.icons:hover{
+    color: #ff4c68;
+}
+
+.header3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: black;
+    margin: 7% 0% 3% 0%;
+}
+
+.header2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 12%;
+    border-radius: 100%;
+    padding: 3% 0%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+.header3cta{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    padding: 5% 22%;
+}
+.download-button-end{
+    margin: 0% 3% 5% 0;
+}
+
+/* Footer Section */
+.footer-icons{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 0.5%;
+}
+.footer-p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Responsive for Mobile Devices */
+@media (max-width: 1000px){
+    #title{
+        text-align: center;
+        height: auto;
+    }
+    .title-image{
+        width: 50%;
+        transform: rotate(0deg);
+        position: static;
+    }
+    .header{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .download-button{
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+}
